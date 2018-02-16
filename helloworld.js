@@ -1,6 +1,6 @@
-var http = require('http');
+let http = require('http');
 
-var server = http.createServer(function(request, response){
+let server = http.createServer(function(request, response){
     response.writeHead(200, {'Content-type': 'text/html'});
     response.write("Hello world write using NodeJS!");
     response.write('<br>Write by Eudalio Sousa.')
